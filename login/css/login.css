@@ -1,0 +1,19 @@
+form{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+
+}
+#input
+{
+    display: inline;
+}
+#fill{
+    color:orange;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    
+}
