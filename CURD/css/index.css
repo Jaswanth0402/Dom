@@ -1,0 +1,23 @@
+.containers{
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+form{
+    background-color: rgb(220, 247, 98);
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+label{
+    color: rgb(10, 9, 9);
+
+}
+#submit{
+    color: white;
+    border: 0ch;
+    height: 28px;
+    background-color: rgb(28, 111, 28);
+}
