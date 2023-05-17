@@ -22,13 +22,7 @@ function validateform(){
      }
      else{
       update()
-      var crbtn=document.createElement("button")
-      crbtn.innerHTML="Submit";
       
-      crbtn.setAttribute("class","btn btn-sm btn-success")
-      document.getElementById("saveupdate").innerHTML=""
-      
-      document.getElementById("saveupdate").appendChild(crbtn);
      }  
          
         Name.value="";
@@ -233,12 +227,7 @@ function edit(td){
   Name.value =row.cells[1].innerHTML   
   email.value =row.cells[2].innerHTML   
   password.value =row.cells[3].innerHTML 
-  var updatebtn=document.createElement("button")
-    updatebtn.innerHTML="Update";
-    updatebtn.setAttribute("class", "btn btn-sm btn-success")
-    updatebtn.setAttribute("onclick","update()")
-    document.getElementById("saveupdate").innerHTML=""
-    document.getElementById("saveupdate").appendChild(updatebtn)
+ 
   // if(submit.value ==="Update"){
   //   submit.value ="Submit"
   // }
@@ -252,6 +241,12 @@ let idvalue;
 function updatevalue(){
   idvalue =id
   update()
+     var updatebtn=document.createElement("button")
+    updatebtn.innerHTML="Update";
+    updatebtn.setAttribute("class", "btn btn-sm btn-success")
+    updatebtn.setAttribute("onclick","update()")
+    document.getElementById("saveupdate").innerHTML=""
+    document.getElementById("saveupdate").appendChild(updatebtn)
 }
 
 function update(){
