@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./file/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/crud.css">
+    <script src="https://kit.fontawesome.com/473670e9e2.js" crossorigin="anonymous"></script>
+    <title>CRUD Operation</title>
+</head>
+<body>
+  <h2 class="text-center pt-5">CRUD OPERATION</h2>
+  <div class="row container-fluid mt-5 pt-5">
+    
+    <div class=" col-4" >
+      
+        <form action="#" id="form">
+    <h3 style="color: rgb(11, 11, 11);">Login Form</h3> 
+          <div>
+           <label for="name">Name</label><br>
+           <input type="text" name="Name" id="name" placeholder="Enter your name" onkeyup="validatename()">
+           <p></p>
+          </div>
+          <div>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="Email" placeholder="Enter your email"onkeyup="validatEmail()">
+            <p></p>
+          </div>
+          <div>
+            <label for="name">Password</label><br>
+            <input type="password" id="pass" name="Password" placeholder="Enter your password"onkeyup="validatePassword()">
+           <span><i class="fa-regular fa-eye-slash" id="show" style="color: #050505;"></i></span>
+            <p></p>
+          </div><br>
+          <div id="saveupdate">
+            <input class="bg-success btn btn-sm"  type="submit" id="submit" value="Submit">
+          </div>
+
+        </form>
+    </div>
+    <div class='col-8'>
+        <table class="table " id="table" >
+            <thead >
+              <tr  >
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Password</th>
+                <th scope="col">Operation</th>
+              </tr>
+              
+            </thead>
+            <tbody id="store">
+
+            </tbody>
+           
+         
+        </table>
+
+    </div>
+  </div>
+    <script src="./file/js/bootstrap.min.js"></script>
+    <script src="./js/crud.js"></script>
+    <script src="./file/js/jquery.js"></script>
+</body>
+</html>
