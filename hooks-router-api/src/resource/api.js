@@ -1,0 +1,1 @@
+export const Apicall="https://6451f642a2860c9ed4fe7357.mockapi.io/user/userdetail"

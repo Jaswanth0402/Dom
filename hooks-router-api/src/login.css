@@ -1,0 +1,41 @@
+.common{
+   
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    align-items: center;
+}
+body{
+    background-color: aquamarine;
+}
+.stick{
+    position: sticky;
+}
+form{
+    background-color: rgb(27, 187, 187);
+   padding: 50px;
+   border: 1px solid white ; 
+   
+}
+.input{
+  border-radius :5px;
+  border: 1px solid green;
+  width: 300px;
+  height: 33px;
+
+}
+.input::placeholder{
+    color: green;
+    padding-left: 10px;
+}
+
+
+.button{
+    padding: 4px;
+    width: 80px;
+    border: none;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 30px;
+}
+
