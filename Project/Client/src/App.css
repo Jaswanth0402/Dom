@@ -1,0 +1,43 @@
+.form{
+display: flex;
+flex-direction: column;
+gap:2% ;
+justify-content: center;
+height: 100vh;
+align-items: center;
+margin: auto;
+
+}
+.input{
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+}
+.block{
+  border: 1px solid orangered;
+  padding: 2%;
+  width: 20%;
+}
+#button{
+  background-color: dodgerblue;
+  padding-Top: 3%;
+  padding-bottom: 3%;
+  width: 100%;
+  color: white;
+  border: none;
+  
+}
+table{
+  width: 40%;
+}
+table,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: auto;
+  
+}
+thead,tbody{
+  padding: 2%;
+  width: 100%;
+}
